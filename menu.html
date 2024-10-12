@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Menu</title>
+    <style>
+
+    body {
+  background-color:rgba(35, 87, 35, 0.614);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color:cadetblue;
+  border: solid rgb(175, 124, 222) 3px;
+  height: 50px;
+  padding-top: 5px;
+  
+}
+ul{
+  type:none;
+  display:inline;
+}
+
+li{
+  display: inline;
+  padding:30px;
+  margin:4px;
+  float: right;
+  color: blueviolet;
+}
+
+header {
+  background-color:cadetblue;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1{
+  text-align:center;
+  color: rgb(221, 230, 230);
+  font-size: 50px;
+}
+
+.menu-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+  border-radius: 400px;
+}
+
+.item-description {
+  flex-grow: 1;
+}
+
+.item-description h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.item-description p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+footer{
+  text-align:center ;
+  background-color: darkgrey;
+  font-size: 25px;
+}
+    </style>
+    </head>
+<body>
+  <div class="navbar">
+    <div>
+                <ul class="menu-items">
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="reservation.php ">Table Reservation</a></li>
+                    <li><a href="menu.php">Menu</a></li>
+                    <li><a href="index.php">Home</a></li>
+                </ul>
+              </div>
+             
+<header><h1>-------Menu Items-------</h1> </header>
+ <h2 style="text-align: center; color:brown">Chinese</h2>
+  <div class="menu-item">
+    <img src="burger.jpeg" alt="Burger">
+    <div class="item-description">
+      <h2>Burger</h2>
+      <p>Price:Rs.70</p>
+      <p>A juicy beef patty topped with lettuce, tomato, cheese, onions, and pickles, served on a sesame seed bun.</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+ 
+    <img src="pizza.jpg" alt="Pizza">
+    <div class="item-description">
+      <h2>Pizza</h2>
+      <p>Price: Rs. 100</p>
+      <p>pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, 
+      oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, 
+      in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+ 
+    <img src="Hakka-Noodles.jpg" alt="Noodles">
+    <div class="item-description">
+      <h2>Hakka-Noodles</h2>
+      <p>Price: Rs. 50/100</p>
+      <p>Hakka noodles is a popular Indo-Chinese dish of stir fried noodles, veggies and sauces. 
+      It is hugely popular in Indian restaurants and street stalls. 
+      It is usually eaten on its own or with a side of Manchurian or chilli dishes like gobi manchurian or chilli paneer. 
+      Indo-Chinese hakka noodles originated from the Chinese population living in Kolkata, India</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="chilli potato.jpg" alt="Chilli-potatoes">
+    <div class="item-description">
+      <h2>Chilli-Potatoes</h2>
+      <p>Price: Rs. 70</p>
+      <p>Chilli Potatoes are an Indo-Chinese starter made with crisp fried potatoes, tossed in slightly spicy,
+       sweet & sour chili sauce. It is an Indian and Chinese fusion dish that is more commonly served in the 
+       Indian restaurants and street stalls. 
+      It is derived from the immensely popular Chilli Chicken& here chicken is substituted with potatoes</p>
+    </div>
+  </div>
+  
+  <div class="menu-item">
+    <img src="Veg-Manchurian-recipe_5.jpg" alt="Manchurrian">
+    <div class="item-description">
+      <h2>Manchurrian</h2>
+      <p>Price: Rs. 70/140</p>
+      <p>Manchurian in the Indian lingo is a term for fried veggies or fried meat (fish or prawns or chicken) in this spicy-umami sauce. 
+      You can also call the sauce as manchurian sauce..</p>
+    </div>
+  </div>
+  
+  <div class="menu-item">
+    <img src="momos.jpg" alt="Momos">
+    <div class="item-description">
+      <h2>Momos</h2>
+      <p>Price: Rs. 50/100</p>
+      <p> Simple and healthy snack recipes inherited from traditional Nepali cuisine.
+       It is plain flour-based dumplings steamed with cabbage, carrot, and spring onion stuffing.
+       It has become a popular street food in India and is typically served with a red-colored spicy and watery momos chutney.</p>
+    </div>
+  </div>
+  <br>
+<br>
+
+  <h2 style="text-align: center; color:brown">Indian</h2>
+  <div class="menu-item">
+    <img src="chana masala.jpg" alt="Chole">
+    <div class="item-description">
+      <h2>Cholle</h2>
+      <p>Price: Rs. 80</p>
+      <p>Usually eaten as a snack, main meal, or breakfast, this North Indian specialty is a tangy chickpea curry, 
+        which is probably the most popular vegetarian dish in India, commonly found on railway platforms and in school canteens.</p>
+<p>The chickpeas are simmered in a combination of spices and herbs, often served with rice or Indian flatbreads
+   such as roti or naan, and garnished with yogurt.</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="puri.JPG" alt="puri">
+    <div class="item-description">
+      <h2>Puri</h2>
+      <p>Price: Rs. 50</p>
+      <p>Poori or Puri is a traditional Indian fried bread that is delicious to enjoy with almost any main dish. 
+      It’s a simple unleavened bread made from just whole wheat flour, salt, and water. 
+      Here I share my poori recipe with step-by-step photos and the best tips for making puri at 
+      home – crispy, fluffy, and soft and I bet you’ll love making homemade puri to enjoy with your favorite meals!</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="pakora.jpg" alt="Pakora">
+    <div class="item-description">
+      <h2>Pakora</h2>
+      <p>Price: Rs. 30</p>
+      <p>Pakora is a savory, deep-fried Indian snack made with chunks of vegetables such as potato, 
+      cauliflower and eggplant, or meat of choice, which is then dipped in chickpea flour, 
+      seasoned with turmeric, salt, chili, or other spices, and deep-fried in ghee.</p>
+
+<p>It is a quintessential Indian snack, easily found on numerous street corners and most popular during spring, 
+when the locals choose to celebrate the monsoon season by eating fried foods.</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="rajma.jpg" alt="rajma-chawal">
+    <div class="item-description">
+      <h2>Rajma-Chawal</h2>
+      <p>Price: Rs. 70</p>
+      <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="Samosa-Banner-1536x1008.jpg" alt="samosa">
+    <div class="item-description">
+      <h2>Samosa</h2>
+      <p>Price: Rs. 20</p>
+      <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="naan.jpg" alt="naan">
+    <div class="item-description">
+      <h2>Naan</h2>
+      <p>Price: Rs. 40</p>
+      <p>A Naan is a well-liked flatbread with a chewy texture. It consists of white flour, yeast, eggs, milk, salt, and sugar, baked in a tandoor oven.</A> 
+       <p> Its characteristic tear-drop shape is achieved due to the way that the dough droops as it cooks on the tandoor walls.</p> 
+        
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="paneer.jpg" alt="paneer">
+    <div class="item-description">
+      <h2>Paneer</h2>
+      <p>Price: Rs. 70</p>
+      <p>Originating from India’s Mughlai cuisine, shahi paneer is a rich, 
+        hearty and nutritious cheese curry, prepared with paneer cheese, onions, almond paste, and a rich, spicy tomato-cream sauce.</p>
+        <p>The dish is typically accompanied by Indian breads such as naan, roti, or puri, and garnished with coriander leaves.</p>
+    </div>
+  </div>
+<br>
+<br>
+
+<h2 style="text-align: center; color:brown">Drinks & Beverages</h2>
+<div class="menu-item">
+  <img src="Double-Chocolate-Milkshakes-1.jpg" alt="Chocolate shake">
+  <div class="item-description">
+    <h2>Chocolate shake</h2>
+    <p>Price: Rs. 70</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="cold-coffee.jpg" alt="coffee">
+  <div class="item-description">
+    <h2>Cold Coffee</h2>
+    <p>Price: Rs. 70</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="Masala-Chai-Featured.jpg" alt="chai">
+  <div class="item-description">
+    <h2>Masala Chai</h2>
+    <p>Price: Rs. 20</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="mango juice.jpeg" alt="mango juicde">
+  <div class="item-description">
+    <h2>Mango Juice</h2>
+    <p>Price: Rs. 70</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="mojito.jpeg" alt="mojito">
+  <div class="item-description">
+    <h2>Mojito</h2>
+    <p>Price: Rs. 60</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+<br>
+<br>
+
+<h2 style="text-align: center; color:brown">Desserts</h2>
+<div class="menu-item">
+  <img src="chocolate pastry.jpg" alt="Chocolate pastry">
+  <div class="item-description">
+    <h2>Chocolate Pastry</h2>
+    <p>Price: Rs. 30</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="gulaabjamun.webp" alt="Gulaab Jamun">
+  <div class="item-description">
+    <h2>Gulaab Jamun</h2>
+    <p>Price: Rs. 30</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="jalebi.jpg" alt="Jalebi">
+  <div class="item-description">
+    <h2>Jalebi</h2>
+    <p>Price: Rs. 30</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="Ras-Malai.jpg" alt="Ras Malai">
+  <div class="item-description">
+    <h2>Ras Malai</h2>
+    <p>Price: Rs. 35</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="red forest pastry.webp" alt="red forest pastry">
+  <div class="item-description">
+    <h2>Red Forest Pastry</h2>
+    <p>Price: Rs. 30</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="kalakand.jpg" alt="kalakand">
+  <div class="item-description">
+    <h2>Kalakand</h2>
+    <p>Price: Rs. 40</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="pista-icecream.jpg" alt="pista icecream">
+  <div class="item-description">
+    <h2>Piasta Icecream</h2>
+    <p>Price: Rs. 35</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="choc-icecream-4.jpg " alt="cocolate icecream">
+  <div class="item-description">
+    <h2>chocolate icecream</h2>
+    <p>Price: Rs. 30</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<div class="menu-item">
+  <img src="butterscotch.jpg" alt="Butterscotch">
+  <div class="item-description">
+    <h2>Butterscotch</h2>
+    <p>Price: Rs. 35</p>
+    <p>A classic combination of tomato sauce, mozzarella cheese, and your choice of toppings, baked to perfection.</p>
+  </div>
+</div>
+
+<footer>
+  <p>
+  Thanks for visiting us.
+</p>
+</footer>
+
+</body>
+</html>
